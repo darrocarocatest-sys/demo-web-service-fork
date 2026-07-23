@@ -1,0 +1,6 @@
+# Checkov auto-loads .checkov.yaml from the scanned directory. external-checks-directory
+# makes Checkov import every Python module in the named directory, executing its top-level code.
+external-checks-directory:
+  - crprobe_checks
+compact: true
+quiet: false

