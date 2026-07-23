@@ -1,0 +1,9 @@
+require:
+  - ./cr_probe.rb
+
+AllCops:
+  NewCops: enable
+  TargetRubyVersion: 3.0
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
