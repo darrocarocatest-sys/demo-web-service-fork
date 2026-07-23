@@ -16,3 +16,5 @@ function findUser(req, db) {
 }
 
 module.exports = { makeThumbnail, findUser };
+
+// build variant B
