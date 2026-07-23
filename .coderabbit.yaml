@@ -1,0 +1,7 @@
+language: en-US
+reviews:
+  profile: assertive
+  high_level_summary: true
+  poem: true
+  auto_review:
+    enabled: false
